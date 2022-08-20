@@ -1,2 +1,5 @@
-# Google_Store-
-안드로이드 설치자료: Google Store 설치 
+# 안드로이드 OS가 설치된 Tinker Edge R 보드에서 구글스토어 설치하는 방법 
+
+***
+
+* 1. 다운로드하기 
