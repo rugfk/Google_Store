@@ -2,4 +2,8 @@
 
 ***
 
-* 1. 다운로드하기 
+* [1] 다운로드하기 
+  - [클릭하기](https://drive.google.com/file/d/1iAdyCOLzXCDPegOUdGoOGGhjtqBa9yi5/view?usp=sharing)
+  
+* [2] 압축풀기 
+  
