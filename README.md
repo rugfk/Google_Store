@@ -27,7 +27,9 @@ unzip google_store.zip
 
 * [6] 'adb push'를 이용해서 압축푼 바이너리파일을 호스트컴퓨터에서 타겟보드에 전송하기
 ```
-adb push "apk.bat"
+cd google_store
+
+adb push "apk.bat" /system/priv-app
 adb push "com.android.vending_25.9.19-21_0_PR_380694501-82591910_minAPI21(arm64-v8a,armeabi-v7a,x86,x86_64)(nodpi)_apkmirror.com.apk" /system/priv-app
 adb push "com.google.android.gms_21.21.16_(100400-378233385)-212116028_minAPI28(arm64-v8a,armeabi-v7a)(nodpi)_apkmirror.com.apk" /system/priv-app
 adb push "com.google.android.gsf.login_7.1.2-25_minAPI23(nodpi)_apkmirror.com.apk" /system/priv-app
