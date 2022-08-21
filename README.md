@@ -16,13 +16,13 @@ unzip google_store.zip
 
 * [3] 'adb push'를 이용해서 압축푼 바이너리파일을 호스트컴퓨터에서 타겟보드에 전송하기
 ```
-adb push "com.google.android.gms_21.21.16_(100400-378233385)-212116028_minAPI28(arm64-v8a,armeabi-v7a)(nodpi)_apkmirror.com.apk" /system/priv-apk
-adb push "com.google.android.gsf.login_7.1.2-25_minAPI23(nodpi)_apkmirror.com.apk" /system/priv-apk
-adb push "com.google.android.gsf_9-6794505-28_minAPI28(nodpi)_apkmirror.com.apk" /system/priv-apk
-adb push "com.google.android.gms_21.21.16_(100400-378233385)-212116028_minAPI28(arm64-v8a,armeabi-v7a)(nodpi)_apkmirror.com.apk" /system/priv-apk
-adb push "com.google.android.gms_21.21.16_(100400-378233385)-212116028_minAPI28(arm64-v8a,armeabi-v7a)(nodpi)_apkmirror.com.apk" /system/priv-apk
-adb push "com.google.android.gsf.login_7.1.2-25_minAPI23(nodpi)_apkmirror.com.apk" /system/priv-apk
-adb push "com.google.android.gsf_9-6794505-28_minAPI28(nodpi)_apkmirror.com.apk" /system/priv-apk
+adb push "com.google.android.gms_21.21.16_(100400-378233385)-212116028_minAPI28(arm64-v8a,armeabi-v7a)(nodpi)_apkmirror.com.apk" /system/priv-app
+adb push "com.google.android.gsf.login_7.1.2-25_minAPI23(nodpi)_apkmirror.com.apk" /system/priv-app
+adb push "com.google.android.gsf_9-6794505-28_minAPI28(nodpi)_apkmirror.com.apk" /system/priv-app
+adb push "com.google.android.gms_21.21.16_(100400-378233385)-212116028_minAPI28(arm64-v8a,armeabi-v7a)(nodpi)_apkmirror.com.apk" /system/priv-app
+adb push "com.google.android.gms_21.21.16_(100400-378233385)-212116028_minAPI28(arm64-v8a,armeabi-v7a)(nodpi)_apkmirror.com.apk" /system/priv-app
+adb push "com.google.android.gsf.login_7.1.2-25_minAPI23(nodpi)_apkmirror.com.apk" /system/priv-app
+adb push "com.google.android.gsf_9-6794505-28_minAPI28(nodpi)_apkmirror.com.apk" /system/priv-app
 
 cd arm64-v8a
 
