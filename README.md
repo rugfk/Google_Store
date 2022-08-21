@@ -1,9 +1,9 @@
 # 안드로이드 OS가 설치된 Tinker Edge R 보드에서 구글스토어 설치하는 방법 
 
 ***
-* [0] SSH로 호스트컴퓨터에서 타겟보드 원격연결하기
+* [0] 호스트컴퓨터에서 안드로이드 타겟보드 디바이스확인하기
 ```
-ssh yourID@yourIP
+adb devices
 ```
 
 * [1] 호스트컴퓨터에서 google_store.zip 파일 다운로드하기 
