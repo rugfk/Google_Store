@@ -4,17 +4,22 @@
 * [1] 호스트컴퓨터와 안드로이드 타겟보드가 잘연결되었는지 확인하기 
 ```
 adb devices
+
+List of devices attached
+D4JHGWI642	device
 ```
 
 * [2] adb root를 입력하여 android에 root 권한을 줍니다 
 ```
 adb root
+restarting adbd as root
 ```
 
 * [3] adb remount를 입력하여 system partition에 쓰기
 권한을 줍니다.
 ```
 adb remount
+remount succeeded
 ```
 
 * [4] 호스트컴퓨터에서 google_store.zip 파일 다운로드하기 
